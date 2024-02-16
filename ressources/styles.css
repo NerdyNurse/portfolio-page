@@ -1,0 +1,25 @@
+:root {
+    --theme-color1: #C6E2B4;
+    --theme-color2: #A9D18E;
+    --theme-color3: #365B38;
+  }
+  
+  html, body {
+      min-height: 100%;
+      scroll-behavior: smooth;
+      
+  }
+  
+  
+  body {
+      width: auto;
+      overflow-x: hidden;
+      margin: 0;
+      padding: 0;
+      background-color: var(--theme-color1);
+      box-sizing: border-box;
+  }
+
+  #portrait {
+    float:right;
+  }
