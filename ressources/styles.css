@@ -112,11 +112,16 @@ main{
     
   }
 
+#projects-header {
+    padding-left: 10px;
+}
+
 #projects {
-    padding: 0 10px;
+    padding: 0 10px 40px 10px;
     margin: 0 auto;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    margin-bottom: 40px;
 }
 
 #project-list>ul {
@@ -124,11 +129,25 @@ main{
     padding-left:10px;
 }
 
+.project {
+    display: inline-block;
+    width: 100%;
+    padding-left: 10px;
+    border-radius: 10px;
+}
+
+.project:hover {
+    text-decoration: underline;
+    cursor: hand;
+
+}
+
 
 
 .details>div>img {
     float: right;
     width: 50%;
+    margin: 10px;
 
 }
 
@@ -149,7 +168,9 @@ main{
     background-color: var(--theme-color2);
     display: none;
     z-index: 1;
-    padding-bottom: 25px;
+    padding: 0 10px 25px 10px;
+    border-radius: 10px;
+    
 }
 
 #default {
@@ -161,12 +182,12 @@ main{
 
 footer{
     background-color: #365B38;
-    position:fixed;
+    position: fixed;
     bottom: 0;
     width: 100%;
     text-align: center;
     color:#C6E2B4;
-    padding: 5px 0
+    padding: 5px 0;
 }
 
   @media only screen and (max-width: 480px)  {
