@@ -119,6 +119,43 @@ main{
     grid-template-columns: 1fr 2fr;
 }
 
+#project-list>ul {
+    list-style: none;
+    padding-left:10px
+}
+
+
+
+.details>div>img {
+    float: right;
+    width: 50%;
+
+}
+
+.language-icons>i{
+    margin: 0 5px;
+}
+
+.project-links, .language-icons{
+    clear: right;
+}
+
+#details-container {
+    position: relative;
+}
+
+.details {
+    position: absolute;
+    background-color: var(--theme-color2);
+    display: none;
+    z-index: 1;
+}
+
+#default {
+    display: block;
+    z-index: -1;
+}
+
   @media only screen and (max-width: 480px)  {
     header div, #about-me{
         flex-direction: column;
