@@ -103,7 +103,7 @@ main{
 #about-me {
     display: flex;
     padding: 10px;
-    border-bottom: solid var(--theme-color3)
+    border-bottom: solid var(--theme-color3);
 
 }
   #portrait {
@@ -121,7 +121,7 @@ main{
 
 #project-list>ul {
     list-style: none;
-    padding-left:10px
+    padding-left:10px;
 }
 
 
@@ -149,11 +149,24 @@ main{
     background-color: var(--theme-color2);
     display: none;
     z-index: 1;
+    padding-bottom: 25px;
 }
 
 #default {
     display: block;
     z-index: -1;
+}
+
+/* footer */
+
+footer{
+    background-color: #365B38;
+    position:fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    color:#C6E2B4;
+    padding: 5px 0
 }
 
   @media only screen and (max-width: 480px)  {
